@@ -1,0 +1,11 @@
+{
+  "name": "Dragon curve",
+  "axiom": "FX",
+  "rules": [
+    { "symbol": "X", "replacement": "X+YF+" },
+    { "symbol": "Y", "replacement": "-FX-Y" }
+  ],
+  "iterations": 10,
+  "angle": 90,
+  "stepLength": 1
+}

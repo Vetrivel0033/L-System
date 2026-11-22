@@ -1,0 +1,11 @@
+{
+  "name": "Plant f: Node rewriting",
+  "axiom": "X",
+  "rules": [
+    { "symbol": "X", "replacement": "F-[[X]+X]+F[+FX]-X" },
+    { "symbol": "F", "replacement": "FF" }
+  ],
+  "iterations": 5,
+  "angle": 22.5,
+  "stepLength": 1
+}

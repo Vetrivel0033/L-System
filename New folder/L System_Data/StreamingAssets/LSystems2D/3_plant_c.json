@@ -1,0 +1,10 @@
+{
+  "name": "Plant (c): edge rewriting, n=4, 22.5 deg",
+  "axiom": "F",
+  "rules": [
+    { "symbol": "F", "replacement": "FF-[-F+F+F]+[+F-F-F]" }
+  ],
+  "iterations": 4,
+  "angle": 22.5,
+  "stepLength": 1
+}

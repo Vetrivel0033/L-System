@@ -1,0 +1,11 @@
+{
+  "name": "Sierpinski triangle (extra): n=5, 120 deg",
+  "axiom": "F-G-G",
+  "rules": [
+    { "symbol": "F", "replacement": "F-G+F+G-F" },
+    { "symbol": "G", "replacement": "GG" }
+  ],
+  "iterations": 5,
+  "angle": 120,
+  "stepLength": 1
+}

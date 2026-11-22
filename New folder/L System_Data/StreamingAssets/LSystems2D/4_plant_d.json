@@ -1,0 +1,11 @@
+{
+  "name": "Plant (d): node rewriting, n=7, 20 deg",
+  "axiom": "X",
+  "rules": [
+    { "symbol": "X", "replacement": "F[+X]F[-X]+X" },
+    { "symbol": "F", "replacement": "FF" }
+  ],
+  "iterations": 7,
+  "angle": 20,
+  "stepLength": 1
+}
